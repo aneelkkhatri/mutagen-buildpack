@@ -9,6 +9,6 @@ curl https://github.com/quodlibet/mutagen/releases/download/release-1.40.0/mutag
 # extract
 tar -xvf mutagen-1.40.0.tar.gz
 
-cp -rf ./mutagen-1.40.0/tools/* ./bin/
+cp -rf ./mutagen-1.40.0/tools/* ./bin
 
 ls -alh

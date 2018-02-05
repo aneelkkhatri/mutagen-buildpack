@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+id3 --version
+exit 0

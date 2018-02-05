@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo "-----> Installing mutagen"
+# change to the the BUILD_DIR ($1)
+cd $1
+
+# download the binary (-O) silently (-s)
+curl https://github.com/quodlibet/mutagen/releases/download/release-1.40.0/mutagen-1.40.0.tar.gz -s -O -L
+# extract
+tar -xvf mutagen-1.40.0.tar.gz
+
+cp -rf ./mutagen-1.40.0/tools/* ./bin/
+
+ls -alh
